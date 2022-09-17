@@ -11,7 +11,7 @@ const aboutContent = "Hi , My name is Mrigesh Patni. I am a full stack WEB devel
 const contactContent = "You can reach to me at mrigeshpatni9@gmail.com or see the code at my github profile: https://github.com/Mrigesh901";
 
 const app = express();
-mongoose.connect("mongodb+srv://mrigesh:Q123w456e789@cluster0.ehrrtxz.mongodb.net/blogdb", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://mrigesh:<password>@cluster0.ehrrtxz.mongodb.net/blogdb", {useNewUrlParser:true});
 
 
 app.set('view engine', 'ejs');
